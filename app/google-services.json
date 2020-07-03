@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "754204032248",
+    "firebase_url": "https://app-luc.firebaseio.com",
+    "project_id": "app-luc",
+    "storage_bucket": "app-luc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754204032248:android:e676eb3e5e4bef913f8f0d",
+        "android_client_info": {
+          "package_name": "com.example.appchui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754204032248-6bajjtm82jg4jsca90rlh058jbcn7pfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appchui",
+            "certificate_hash": "394368309e2a95fd62f978d195ee83a0b1217651"
+          }
+        },
+        {
+          "client_id": "754204032248-98kpcb9sjh1f5qjttt6ft17ev5b5d4b1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3NRR9xps54LIUaGlK9dCInFrlMYnVBiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754204032248-98kpcb9sjh1f5qjttt6ft17ev5b5d4b1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
