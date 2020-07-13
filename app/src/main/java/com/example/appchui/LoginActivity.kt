@@ -32,6 +32,7 @@ class LoginActivity : AppCompatActivity() {
                 .createSignInIntentBuilder()
                 .setAvailableProviders(providers)
                 .setIsSmartLockEnabled(false)
+                .setTheme(R.style.LogInUIStyle)
                 .build(),
             RC_SIGN_IN
         )
@@ -43,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
             var response = IdpResponse.fromResultIntent(data)
             if (resultCode == Activity.RESULT_OK) {
                 val user = FirebaseAuth.getInstance().currentUser
-                Log.d("USERDATA", user?.displayName)
+//                Log.d("USERDATA", user?.displayName)
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             } else {
